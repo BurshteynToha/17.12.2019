@@ -17,7 +17,16 @@ namespace _171219
             {
                 for (int j = 1; j <= triangle_size; j++)
                 {
-                    Console.Write(j <= i ? $"{j}" : "*");
+                    // short
+                    // Console.Write(j <= i ? $"{j}" : "*");
+                    if (j <= i)
+                    {
+                        Console.Write(j);
+                    }
+                    else
+                    {
+                        Console.Write("*");
+                    }
                 }
                 Console.WriteLine();
             }
