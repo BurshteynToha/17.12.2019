@@ -36,7 +36,7 @@ namespace _171219
                 Console.Write($"{i} ");
             }
 
-            // ============================ 2
+            // ============================ 3
             for (int i = 100; i >= 1; i--)
             {
                 Console.Write($"{i} ");
@@ -77,6 +77,7 @@ namespace _171219
                 z = number > 10 ? number : -5;
             }
 
+            // ============================ 4
             //int my_number = Convert.ToInt32(Console.ReadLine());
 
             for (int my_number = 2; my_number <= 100; my_number++)
